@@ -7,16 +7,21 @@ body{
     margin: 0;
 }
 
+.lago-t{
+    font-weight: 900;
+    font-family: arial;
+}
+
 main{
     height: calc(100vh - 30px);
-    background-color: aquamarine;
+    background-color: rgb(90, 207, 253);
     display: grid;
     place-items: center;
 }
 
 footer{
     height: 30px;
-    background-color: blueviolet;
+    background-color: crimson;
     display: grid;
     color: #fff;
     place-items: center;
@@ -54,5 +59,7 @@ footer{
     margin: 15px auto;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
+    transition: all .3s ease-in-out;
 }
+.leermas:hover{background: #025393;color: #fff;}
 .text-p{color: #555555;padding-top: 15px;font-size: 17px;text-align: justify;}
