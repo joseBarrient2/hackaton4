@@ -1,0 +1,102 @@
+*{margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main{
+    height: calc(100vh - 30px);
+    display: grid;
+    place-items: center;
+}
+
+.starwars{
+    width: 480px;
+    height: 553px;
+    background: #cc3843;
+    position: relative;
+    border-radius: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.text-img{
+    display: block;
+    width: 223px;
+    opacity: 0.2;
+}
+.box-info{position:absolute;
+width: 654px;
+height: 479px;
+background: #0c1f2c;
+border-radius: 20px;
+right: -420px;
+top: 40px;
+display: flex;
+align-items: center;
+}
+
+.box-info img{
+    margin-left: -50px;
+    margin-left: -150px;
+}
+.info{padding-left: 60px;}
+.info .title{
+    width: 320px;
+    font-size: 44px;
+    color: #fff;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    letter-spacing: 0px;
+    line-height: 46px;
+}
+.precio{
+    font-family: "Open Sans", sans-serif;
+    font-size: 30px;
+    color: #fff;
+    padding-top: 12px;
+}
+.sizes{
+    display: flex;
+    width: 175px;
+    padding: 10px 0;
+}
+.itemtallas{
+    width: 32px;
+    height: 32px;
+    color: #fff;
+    border-radius: 50px;
+    border: solid thin rgba(255, 255, 255, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+}
+
+.itemtallas:hover{
+    border: solid thin #9e0909;
+}
+
+.t-talla{
+    font-family: "Open Sans", sans-serif;
+    color: #fff;
+    padding-top: 35px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.add{
+    background: #cc3843;
+    display: block;
+    width: 178px;
+    padding: 13px 0;
+    color: #fff;
+    text-align: center;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 13px;
+    margin-top: 25px;
+    font-family: "Open Sans", sans-serif;
+}
